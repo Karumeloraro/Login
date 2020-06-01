@@ -1,0 +1,35 @@
+form {
+    font-family: 'Clicker Script', cursive;
+  float: right;
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 10%;
+  width: 10%;
+  padding: 40px;
+  border-style: solid;
+  border-radius: 30px;
+  background-image: linear-gradient(grey, white); 
+}
+  .recuperarContraseña .informacionsobreherramientas {
+    visibility: hidden;
+    width: 5%;
+    background-color: blue;
+    color: greenyellow;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 5px;
+    position: absolute;
+    z-index: 1;
+  }  
+  .recuperarContraseña:hover .informacionsobreherramientas {
+    visibility: visible;
+  }
+  form input:required:valid {
+    border:2px solid green;
+   }
+   form input:required:invalid {
+    border:2px solid red;
+   }
